@@ -6,10 +6,10 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Work', href: '#work' },
-    { name: 'Services', href: '#services' },
-    { name: 'About', href: '#about' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Work', href: '/#work' },
+    { name: 'Services', href: '/services' },
+    { name: 'About', href: '/#about' },
+    { name: 'Contact', href: '/contact' },
   ];
 
   return (
@@ -18,7 +18,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-white font-bold tracking-widest text-xl">
-            Leaf Studio
+            Archi Inact Studio
           </div>
 
           {/* Desktop Navigation */}

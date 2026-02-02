@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           {/* Brand Column */}
           <div className="col-span-2 md:col-span-1">
-            <h3 className="font-bold tracking-wider mb-3">Leaf Studio</h3>
+            <h3 className="font-bold tracking-wider mb-3">Archi Inact Studio</h3>
             <p className="text-gray-400 text-sm font-light">
               Designing for life.
             </p>
@@ -94,7 +94,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-gray-800 pt-8">
           <p className="text-center text-gray-500 text-sm">
-            © {currentYear} Leaf Studio. All rights reserved.
+            © {currentYear} Archi Inact Studio. All rights reserved.
           </p>
         </div>
       </div>
