@@ -23,7 +23,7 @@ export default function ServicesPage() {
 
           {/* Download Button */}
           <a
-            href="#"
+            href="/service-guide.pdf"
             target="_blank"
             download="service-guide.pdf"
             className="mt-8 px-12 py-4 bg-black text-white tracking-wider hover:bg-gray-800 transition-colors duration-300"
